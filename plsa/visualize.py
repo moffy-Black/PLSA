@@ -27,7 +27,7 @@ class Visualize:
         self.__topic_range = range(result.n_topics)
         self.__topic_given_doc = result.topic_given_doc
         self.__predict = result.predict
-        self.__wordcloud = WordCloud(background_color='white')
+        self.__wordcloud = WordCloud(font_path='./plsa/font/Arial Unicode.ttf',background_color='white')
 
     def __repr__(self) -> str:
         title = self.__class__.__name__
