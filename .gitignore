@@ -96,3 +96,7 @@ ENV/
 data
 plsa/nltk_data
 
+*.DS_Store
+
+*.png
+*.jpeg
